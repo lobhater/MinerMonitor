@@ -1,0 +1,41 @@
+This is a general purpose android application to monitor you mining pool and miners as well.
+
+People who use miner.php that comes with cgMiner will find this app especially useful as it 
+provides a single interface to monitor the pool and miners from.  Keep in mind this is for 
+all intents and purposes a beta test.  I have a lot of development to do still, but found
+myself actually using the app last night to quickly check my pool stats and miner temps before
+I went to bed.  This made me decide that it is at least ready for basic use.  Please comment
+and let me know what you would like to see as far as features and any bugs you come across.
+
+To use:
+
+  The network stats are pulled from "http://ltc.block-explorer.com/" and is currently hard
+coded into the program, this may change in the future.
+  
+**************************************************************************************************
+  To easily access the URL needed to monitor your pool stats go to:
+
+	My Account --> Account Details --> Click API key link
+	     and copy the entire URL from the address bar.  Then in the application itself go to
+ 
+	Options--> Settings --> API URL 
+	     and paste the link there.
+**************************************************************************************************
+  To setup the app to monitor the miner.php just go to:
+
+	Options--> Settings --> cgMiner API URL
+		and input the URL of your cgMiner webpage.
+
+		I would reccomend using the mobile version of miner.php as it loads best in the app
+		currently, although the full versions works fine.  I have some default settings to 
+		give you an example to work from.  I recommend just changing the base URL.
+****************************************************************************************************
+
+Again this is just a beta but plan to spend a lot of time and effort on this over the coming months
+so any feed back is welcome.
+
+
+Now what kind of miner would I be if I didn't put an address at the bottom of everything I do-
+So if you like this app and wanna see it get better please feel free to donate.
+
+LbRfmk63V3EJcaooncRhiV17LUbqpi5ttZ
